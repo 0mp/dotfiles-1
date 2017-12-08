@@ -18,7 +18,7 @@ set_from_resource $mod i3.mod_key Mod4
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
-font pango:Hack 12
+font pango:Hack 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -184,9 +184,9 @@ bar {
 
 bindsym $mod+m bar mode toggle
 
-new_window pixel 4
-gaps inner 4
-gaps outer -4
+new_window pixel 2
+gaps inner 2
+gaps outer -2
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo +1%
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo -1%
