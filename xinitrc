@@ -14,6 +14,8 @@ xrdb -DENV_HOME=$HOME -DENV_I3_MOD_KEY=$I3_MOD_KEY -merge $HOME/.Xresources
 xmodmap -e "keycode 94 = grave asciitilde"
 xmodmap $HOME/.Xmodmap
 
+xrandr --dpi 96
+
 if hash synclient 2>/dev/null; then
     synclient HorizTwoFingerScroll=1
 fi
