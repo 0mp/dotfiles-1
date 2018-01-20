@@ -1,6 +1,5 @@
 urxvt.termName:     rxvt-unicode-256color
 
-!urxvt.font:         xft:Hack:size=10
 urxvt.font:         xft:Hack:size=14
 
 URxvt.letterSpace: 1
